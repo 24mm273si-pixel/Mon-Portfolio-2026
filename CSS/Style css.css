@@ -76,3 +76,44 @@ a.active ::after {
     width: 100%;
     
 }
+.hero {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem 2rem;
+}
+.hero img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 210px;
+    border: 7px solid rgb(53, 12, 203);
+}
+.hero h1 {
+    color: #602fbb;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1.2rem;
+}
+.hero p {
+    color: #631ebc;
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+}
+.hero a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #5719ad;
+    color: #f8f7f7;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-weight: 500;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.hero a:hover {
+    background-color: #6c63ff;
+    transform: translateY(-3px);
+}
