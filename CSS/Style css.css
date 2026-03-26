@@ -17,7 +17,7 @@ h1 {
 }
 body {
     background-color: var(#ceced8);
-    font-family: roboto, sans-serif;
+    font-family: roboto,sans-serif;
     line-height: 1.6;
 }
 header {
@@ -35,7 +35,7 @@ header div a {
     text-decoration: none;
     font-size: 2.2rem;
     font-weight: bold;
-    color: #5719ad;
+    color: var(--violet-doux);
 }
 ol li {
     list-style: none;
@@ -53,7 +53,7 @@ ol li a {
     padding: 10px 0;
 }
 ol li a:hover {
-    color: #524ba9;
+    color: var(--violet-doux);
 }
 ol li a::after {
     content:'';
@@ -62,7 +62,7 @@ ol li a::after {
     bottom: 0;
     height: 3px;
     width: 0%;
-    background-color: #0a54a9;
+    background-color: var(--violet-fonce);
     transition: width 0.3s ease;
 }
 ol li a:hover::after {
@@ -80,23 +80,25 @@ a.active ::after {
     display:flex;
     justify-content: center;
     align-items: center;
-    gap: 10rem 2rem;
+    gap: 5rem;
+    text-align: center;
+    margin: 5rem 0rem;
 }
 .hero img {
     width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 210px;
-    border: 7px solid rgb(53, 12, 203);
+    border: 7px solid var(--violet-doux);
 }
 .hero h1 {
-    color: #602fbb;
+    color: var(--violet-doux);
     font-size: 3rem;
     font-weight: 400;
     margin-bottom: 1.2rem;
 }
 .hero p {
-    color: #631ebc;
+    color: var(--violet-doux);
     font-size: 1.3rem;
     margin-bottom: 1.2rem;
 }
@@ -109,11 +111,63 @@ a.active ::after {
     border-radius: 30px;
     text-transform: uppercase;
     letter-spacing: 1.1px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 1rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 .hero a:hover {
     background-color: #6c63ff;
     transform: translateY(-3px);
+}
+.Apropos {
+    width: 800px;
+    margin: 6rem auto;
+    text-align: center;
+
+}
+.Apropos h2 {
+    color: var(--violet-doux);
+    font-size: 2.6rem;
+    font-weight: 700;
+    position: relative;
+}
+.Apropos h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--violet-doux);
+    margin: 1.2rem auto;
+    border-radius: 2px;
+}
+section p {
+    margin-bottom: 2rem;
+    color: var(--gris-fonce);
+    font-size: 1.3rem;
+}
+section {
+    width: 800px;
+    margin: 6rem auto;
+    text-align: center;
+
+}
+section h2 {
+    color: var(--violet-doux);
+    font-size: 2.6rem;
+    font-weight: 700;
+    position: relative;
+}
+section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: var(--violet-doux);
+    margin: 1.2rem auto;
+    border-radius: 2px;
+}
+section p {
+    margin-bottom: 2rem;
+    color: var(--gris-fonce);
+    font-size: 1.3rem;
 }
