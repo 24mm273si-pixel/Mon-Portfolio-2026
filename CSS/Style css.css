@@ -171,3 +171,56 @@ section p {
     color: var(--gris-fonce);
     font-size: 1.3rem;
 }
+.competences table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.competences table th, .competences table td {
+    padding: 15px;
+}
+.competences table thead {
+    background-color: var(--violet-doux);
+    color: #fff;
+    text-transform: uppercase;
+}
+.competences table tbody td {
+    border-bottom: 1px solid var(--gris-clair);
+}
+.competences table tbody tr:nth-child(even) {
+    background-color: #fdfdfd;
+}
+.competences table tbody tr {
+   transition: background-color 0.3s ease;
+}
+.competences table tbody tr:hover {
+    background-color: #c2bfbf;
+}
+.competences table thead th {
+    text-align: left;
+}
+footer {
+    margin-top: 3rem;
+    background-color: var(--violet-doux);
+    padding: 3rem 0;
+    text-align: center;
+}
+footer p  img {
+    color: #faf9f9;
+    margin-bottom: 1.2rem;
+}
+footer img {
+        display: inline-block;
+        font-size: 1.6rem;
+        color: #fdfcfc;
+        margin: 0 10px;
+        transition: color 0.3s ease,transform 0.2s ease     
+}
+footer img:hover {
+    color: var(--orange-vif);
+    transform: translateY(-3px);
+}
