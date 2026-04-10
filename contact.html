@@ -3,54 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
     <link rel="stylesheet" href="CSS/Style css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Mon portfolio 2026 - Contacts</title>
 </head>
 <body>
-    <header>
-        <div><a href="">Mon Portfolio</a></div>
+   <header>
+        <div><a class="logo" href="logo">Mon portfolio</a></div>
         <nav>
-            <ol>
-                <li><a href="index.html">Acceuil</a></li>
+            <ul>
+                <li><a class="Active" href="index.html">Acceuil</a></li>
                 <li><a href="projets.html">Projets</a></li>
                 <li><a href="passions.html">Passions</a></li>
-                <li><a href="divertissement.html">Divertissement</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-            </ol>
+                <li><a href="divertissement.html">Divertissements</li></a>
+                <li><a class="active" href="contact.html"">Contacts</a></li>
+            </ul>
         </nav>
     </header>
-    <main><h1>Contactez-nous</h1>
-    
-    <main>
-    <section class="contact">
-        <h2>Contactez-moi</h2>
-        <p>Je suis basé à Lubumbashi. Vous pouvez me joindre directement au numéro :</p>
-        <p class="numero">📞 +243 977 970 701 (WhatsApp & Telegram)</p>
+<main>
+    <section class="contact-container">
+        <h2>Me contacter</h2>
+        
+        <div class="contact-content">
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" name="nom" placeholder="Votre nom complet" required autofocus>
+                </div>
+                <div class="form-group">
+                    <label for="tel">Téléphone</label>
+                    <input type="tel" id="tel" name="tel" placeholder="+243..." required>
+                </div>
+                <button type="submit" id="projets">Envoyer</button>
+            </form>
 
-        <form class="contact-form" action="#" method="post">
-            <div class="form-group">
-                <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom" required>
+            <div class="contact-info">
+                <h3>Pour plus d'infos</h3>
+                <p><i class="fa-solid fa-location-dot"></i><strong>Ville :</strong> Lubumbashi, RDC</p>
+                
+                <div class="social-links">
+                    <a href="https://wa.me/243977970701" target="_blank" class="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                    <a href="https://t.me/@GL0RY_KBJ" target="_blank" class="telegram">
+                        <i class="fa-brands fa-telegram"></i> Telegram</a>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="telephone">Téléphone :</label>
-                <input type="tel" id="telephone" name="telephone" required>
-            </div>
-            <button type="submit">Envoyer</button>
-        </form>
+        </div>
     </section>
 </main>
-</main>
-        
-            </main>
-      
-            <footer>copyright 2026  -GAPS MUKAZ-  Tous Droits Reserves</footer>
-            <img src="lk.webp" alt="image" width="30px">
-            <img src="git.webp" alt="image" width="30px">
-            <img src="x.webp" alt="image" width="30px">
-        
+<footer>
+        <p>©CopyRight - 2026 - GAPS MUKAZ - Tous droits réservés.</p><br>
+        <a href="https://www.linkedin.com/in/gloire-kabundji-b6552226a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/24nk356si-cpu" target="_blank"><i class="fa-brands fa-github"></i></a>        
+        <a href="https://x.com/GLORYKBJ001" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+</footer>
 </body>
 </html>
